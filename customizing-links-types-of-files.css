@@ -1,0 +1,55 @@
+a[href$=".docx"]:before, a[href$=".doc"]:before, a[href$=".docm"]:before, a[href$=".odt"]:before, a[href$=".rtf"]:before { 
+  font-family: 'fontawesome';
+  color: #00f;
+  content: '\f1c2';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".xlsx"]:before, a[href$=".xls"]:before, a[href$=".xlsm"]:before, a[href$=".csv"]:before, a[href$=".ods"]:before {   
+  font-family: 'fontawesome';
+  color: #009077;
+  content: '\f1c3';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".pptx"]:before, a[href$=".ppt"]:before {       
+  font-family: 'fontawesome';
+  color: #f00;
+  content: '\f1c4';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".txt"]:before {        
+  font-family: 'fontawesome';
+  color: #000;
+  content: '\f0f6';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".zip"]:before, a[href$=".7z"]:before {       
+  font-family: 'fontawesome';
+  color: #000;
+  content: '\f1c6';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".rar"]:before, a[href$=".gz"]:before, a[href$=".tar"]:before, a[href$=".xz"]:before {   
+  font-family: 'fontawesome';
+  color: #000;
+  content: '\f1c6';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".dwg"]:before {   
+  font-family: 'fontawesome';
+  color: #000;
+  content: '\f016';
+  font-size: 1.5em;
+  padding-right: 10px; }
+  
+a[href$=".pdf"]:before, a[href$=".djvu"]:before, a[href$=".djv"]:before, a[href$=".fb2"]:before, a[href$=".fb3"]:before, a[href$=".mobi"]:before {  
+  font-family: 'fontawesome';
+  color: #f00;
+  content: '\f1c1';
+  font-size: 1.5em;
+  padding-right: 10px; }
