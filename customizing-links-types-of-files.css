@@ -1,55 +1,67 @@
-a[href$=".docx"]:before, a[href$=".doc"]:before, a[href$=".docm"]:before, a[href$=".odt"]:before, a[href$=".rtf"]:before { 
+a[href$=".docx"], a[href$=".doc"], a[href$=".docm"], a[href$=".odt"], a[href$=".rtf"],
+a[href$=".xlsx"], a[href$=".xls"], a[href$=".xlsm"], a[href$=".csv"], a[href$=".ods"],
+a[href$=".pptx"], a[href$=".ppt"], a[href$=".txt"], a[href$=".zip"], a[href$=".7z"],
+a[href$=".rar"], a[href$=".gz"], a[href$=".tar"], a[href$=".xz"], a[href$=".dwg"],
+a[href$=".pdf"], a[href$=".djvu"], a[href$=".djv"], a[href$=".fb2"], a[href$=".fb3"], a[href$=".mobi"] {
+  margin-left: 35px;
+}
+
+a[href$=".docx"]:hover, a[href$=".doc"]:hover, a[href$=".docm"]:hover, a[href$=".odt"]:hover, a[href$=".rtf"]:hover,
+a[href$=".xlsx"]:hover, a[href$=".xls"]:hover, a[href$=".xlsm"]:hover, a[href$=".csv"]:hover, a[href$=".ods"]:hover,
+a[href$=".pptx"]:hover, a[href$=".ppt"]:hover, a[href$=".txt"]:hover, a[href$=".zip"]:hover, a[href$=".7z"]:hover,
+a[href$=".rar"]:hover, a[href$=".gz"]:hover, a[href$=".tar"]:hover, a[href$=".xz"]:hover, a[href$=".dwg"]:hover,
+a[href$=".pdf"]:hover, a[href$=".djvu"]:hover, a[href$=".djv"]:hover, a[href$=".fb2"]:hover, a[href$=".fb3"]:hover, a[href$=".mobi"]:hover {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+a[href$=".docx"]:before, a[href$=".doc"]:before, a[href$=".docm"]:before, a[href$=".odt"]:before, a[href$=".rtf"]:before,
+a[href$=".xlsx"]:before, a[href$=".xls"]:before, a[href$=".xlsm"]:before, a[href$=".csv"]:before, a[href$=".ods"]:before,
+a[href$=".pptx"]:before, a[href$=".ppt"]:before, a[href$=".txt"]:before, a[href$=".zip"]:before, a[href$=".7z"]:before,
+a[href$=".rar"]:before, a[href$=".gz"]:before, a[href$=".tar"]:before, a[href$=".xz"]:before, a[href$=".dwg"]:before,
+a[href$=".pdf"]:before, a[href$=".djvu"]:before, a[href$=".djv"]:before, a[href$=".fb2"]:before, a[href$=".fb3"]:before, a[href$=".mobi"]:before {
   font-family: 'fontawesome';
+  font-size: 1.5em;
+  margin-left: -35px;
+  padding: 0 10px 0 5px;
+}
+
+a[href$=".docx"]:before, a[href$=".doc"]:before, a[href$=".docm"]:before, a[href$=".odt"]:before, a[href$=".rtf"]:before {
   color: #00f;
   content: '\f1c2';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".xlsx"]:before, a[href$=".xls"]:before, a[href$=".xlsm"]:before, a[href$=".csv"]:before, a[href$=".ods"]:before {   
-  font-family: 'fontawesome';
+a[href$=".xlsx"]:before, a[href$=".xls"]:before, a[href$=".xlsm"]:before, a[href$=".csv"]:before, a[href$=".ods"]:before {
   color: #009077;
   content: '\f1c3';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".pptx"]:before, a[href$=".ppt"]:before {       
-  font-family: 'fontawesome';
+a[href$=".pptx"]:before, a[href$=".ppt"]:before {
   color: #f00;
   content: '\f1c4';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".txt"]:before {        
-  font-family: 'fontawesome';
+a[href$=".txt"]:before {
   color: #000;
   content: '\f0f6';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".zip"]:before, a[href$=".7z"]:before {       
-  font-family: 'fontawesome';
+a[href$=".zip"]:before, a[href$=".7z"]:before {
   color: #000;
   content: '\f1c6';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".rar"]:before, a[href$=".gz"]:before, a[href$=".tar"]:before, a[href$=".xz"]:before {   
-  font-family: 'fontawesome';
+a[href$=".rar"]:before, a[href$=".gz"]:before, a[href$=".tar"]:before, a[href$=".xz"]:before {
   color: #000;
   content: '\f1c6';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".dwg"]:before {   
-  font-family: 'fontawesome';
+a[href$=".dwg"]:before {
   color: #000;
   content: '\f016';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
   
-a[href$=".pdf"]:before, a[href$=".djvu"]:before, a[href$=".djv"]:before, a[href$=".fb2"]:before, a[href$=".fb3"]:before, a[href$=".mobi"]:before {  
-  font-family: 'fontawesome';
+a[href$=".pdf"]:before, a[href$=".djvu"]:before, a[href$=".djv"]:before, a[href$=".fb2"]:before, a[href$=".fb3"]:before, a[href$=".mobi"]:before {
   color: #f00;
   content: '\f1c1';
-  font-size: 1.5em;
-  padding-right: 10px; }
+}
